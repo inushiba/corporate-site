@@ -520,29 +520,18 @@ h1{
 
   padding-bottom: 70px;
   
-  .container {
-    position: relative;
-    max-width: 960px;
-    margin: 0 auto;
-    box-sizing: border-box;
-    
     @media (min-width: 551px) {
       padding-top: 35px;
-      width: 80%;
     }
     
     @media (max-width: 550px) {
       margin: 0 auto;
       padding: 20px 20px;
     }
-  }
   
   #main {
     @media (min-width: 551px) {
       padding-right: 20px;
-      .nine.columns{
-        width: 74.0%;
-      }
     }
   }
 
@@ -550,8 +539,6 @@ h1{
     color: #42b9d0;
     border-bottom: 3px solid #42b9d0;
     font-weight: 700;
-    line-height: 1.25;
-    letter-spacing: -.1rem;
     
     @media (min-width: 551px) {
       font-size: 2rem;
@@ -662,56 +649,46 @@ h1{
 #contents {
   
   @media (min-width: 551px) {
+    padding-top: 35px;
     padding-bottom: 70px;
   }
   
-  .container {
-    position: relative;
-    max-width: 960px;
-    margin: 0 auto;
-    box-sizing: border-box;
-  
-    #main {
+  #main {
+    
+    th {
+      padding-right: 20px;
+    }
+    
+    @media (min-width: 551px) {
+      padding-right: 20px;
+    }
+    
+    h2 {
+      color: $blue1;
+      border-bottom: 3px solid $blue1;
+      font-weight: bold;
       
-      h2.company_title {
-                  margin-bottom: 0;
-                }
-                
-          @media (min-width: 551px) {
-            padding-right: 20px;
-          }
-          
-          .nine.columns {
-                @media (min-width: 551px) {
-                  width: 74.0%;
-                }
-                
-          }
-
-      table {
-        border-collapse: collapse;
-        border-spacing: 0;
-        display: table;
-        border-color: gray;
-
-        .u-full-width {
-          width: 100%;
-          box-sizing: border-box;
-        }
-  
-        th, td {
-          color: #626262;
-          padding-right: 20px;
-          font-size: 14px;
-          padding: 20px 0;
-          text-align: left;
-          border-bottom: 1px solid #E1E1E1;
-          
-          p {
-            margin-bottom: 0;
-          }
-        }
+      @media (min-width: 551px) {
+        font-size: 2rem;
       }
+    }
+    
+    th,td {
+      color: #626262;
+      font-size: 1.4rem;
+    }
+    
+    td {
+      padding: 20px 0;
+    }
+    
+    p {
+      margin-bottom: 0;
     }
   }
 }
+
+#contents #main h2.company_title {
+  margin-bottom: 0;
+}
+  
