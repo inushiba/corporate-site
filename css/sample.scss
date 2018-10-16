@@ -466,7 +466,7 @@ h1{
 
 #sub_cover{
   
-    @media (min-width: 551px) {
+    @media (min-width: 550px) {
       .container h2 {
         color: white;
         font-size: 3.2rem;
@@ -518,14 +518,15 @@ h1{
 
 #contents {
 
-  padding-bottom: 70px;
+  padding-top: 20px;
   
-    @media (min-width: 551px) {
+    @media (min-width: 550px) {
       padding-top: 35px;
+      padding-bottom: 70px;
     }
   
   #main {
-    @media (min-width: 551px) {
+    @media (min-width: 550px) {
       padding-right: 20px;
     }
   }
@@ -535,7 +536,7 @@ h1{
     border-bottom: 3px solid #42b9d0;
     font-weight: 700;
     
-    @media (min-width: 551px) {
+    @media (min-width: 550px) {
       font-size: 2rem;
       padding-bottom: 20px;
     }
@@ -562,7 +563,7 @@ h1{
       }
 
 
-      @media (min-width: 551px) {
+      @media (min-width: 550px) {
         padding-bottom: 5px;
         margin-bottom: 10px;
         display: inline;
@@ -583,7 +584,7 @@ h1{
   #sidebar {
     padding-bottom: 20px;
     
-    @media (min-width: 551px) {
+    @media (min-width: 550px) {
       .three.columns {
         width: 22%;
       }
@@ -639,7 +640,7 @@ h1{
 
 #contents {
   
-  @media (min-width: 551px) {
+  @media (min-width: 550px) {
     padding-top: 35px;
     padding-bottom: 70px;
   }
@@ -659,7 +660,7 @@ h1{
       border-bottom: 3px solid $blue1;
       font-weight: bold;
       
-      @media (min-width: 551px) {
+      @media (min-width: 550px) {
         font-size: 2rem;
       }
     }
