@@ -523,11 +523,6 @@ h1{
     @media (min-width: 551px) {
       padding-top: 35px;
     }
-    
-    @media (max-width: 550px) {
-      margin: 0 auto;
-      padding: 20px 20px;
-    }
   
   #main {
     @media (min-width: 551px) {
@@ -558,10 +553,6 @@ h1{
     .news_li {
       list-style: none;
       @include fontsize(15);
-      
-      li {
-        padding-bottom: 5px;
-      }
 
       span{
         color: $blue1;

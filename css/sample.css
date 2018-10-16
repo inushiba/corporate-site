@@ -284,10 +284,6 @@ h1 {
   @media (min-width: 551px) {
     #contents {
       padding-top: 35px; } }
-  @media (max-width: 550px) {
-    #contents {
-      margin: 0 auto;
-      padding: 20px 20px; } }
   @media (min-width: 551px) {
     #contents #main {
       padding-right: 20px; } }
@@ -308,8 +304,6 @@ h1 {
     list-style: none;
     font-size: 15px;
     font-size: 1.5rem; }
-    #contents #main .news_li li {
-      padding-bottom: 5px; }
     #contents #main .news_li span {
       color: #42b9d0;
       font-weight: bold;
